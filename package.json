@@ -1,5 +1,16 @@
 {
   "dependencies": {
     "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.4",
+    "eslint": "^9.39.4",
+    "globals": "^17.5.0",
+    "jest": "^29.7.0"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "build": "echo Build step (no build needed for express)",
+    "test": "jest"
   }
 }
